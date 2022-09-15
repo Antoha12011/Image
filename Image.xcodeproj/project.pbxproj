@@ -13,6 +13,7 @@
 		121E0DFF28D35F4C0058D897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121E0DFD28D35F4C0058D897 /* Main.storyboard */; };
 		121E0E0128D35F4E0058D897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 121E0E0028D35F4E0058D897 /* Assets.xcassets */; };
 		121E0E0428D35F4E0058D897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121E0E0228D35F4E0058D897 /* LaunchScreen.storyboard */; };
+		121E0E0E28D35FF90058D897 /* DataCollectionVIewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E0E0D28D35FF90058D897 /* DataCollectionVIewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		121E0E0028D35F4E0058D897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		121E0E0328D35F4E0058D897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		121E0E0528D35F4E0058D897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		121E0E0D28D35FF90058D897 /* DataCollectionVIewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionVIewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				121E0DF728D35F4C0058D897 /* AppDelegate.swift */,
 				121E0DF928D35F4C0058D897 /* SceneDelegate.swift */,
 				121E0DFB28D35F4C0058D897 /* ViewController.swift */,
+				121E0E0D28D35FF90058D897 /* DataCollectionVIewCell.swift */,
 				121E0DFD28D35F4C0058D897 /* Main.storyboard */,
 				121E0E0028D35F4E0058D897 /* Assets.xcassets */,
 				121E0E0228D35F4E0058D897 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				121E0E0E28D35FF90058D897 /* DataCollectionVIewCell.swift in Sources */,
 				121E0DFC28D35F4C0058D897 /* ViewController.swift in Sources */,
 				121E0DF828D35F4C0058D897 /* AppDelegate.swift in Sources */,
 				121E0DFA28D35F4C0058D897 /* SceneDelegate.swift in Sources */,
