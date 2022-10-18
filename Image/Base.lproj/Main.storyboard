@@ -27,7 +27,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="HAs-wG-Y7q" customClass="DataCollectionVIewCellCollectionViewCell" customModule="Sohra" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="HAs-wG-Y7q" customClass="DataCollectionVIewCellCollectionViewCell" customModule="Image" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="413" height="818"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="EMl-55-MxE">
@@ -72,7 +72,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VaS-mp-Pp7" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-161" y="104"/>
+            <point key="canvasLocation" x="-64" y="131"/>
         </scene>
     </scenes>
     <resources>
