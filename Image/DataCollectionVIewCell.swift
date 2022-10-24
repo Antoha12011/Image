@@ -11,4 +11,3 @@ class DataCollectionVIewCell: UICollectionViewCell {
     
     @IBOutlet weak var img: UIImageView!
 }
-
