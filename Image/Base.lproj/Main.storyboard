@@ -45,6 +45,9 @@
                                                     <buttonConfiguration key="configuration" style="plain" buttonSize="large">
                                                         <imageReference key="image" image="bookmark" catalog="system" symbolScale="large"/>
                                                     </buttonConfiguration>
+                                                    <connections>
+                                                        <action selector="saveImage:" destination="sMO-9e-Hkd" eventType="touchUpInside" id="fdN-m4-68Y"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
