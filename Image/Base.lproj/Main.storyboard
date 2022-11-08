@@ -3,13 +3,14 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Title-->
+        <!--Обои-->
         <scene sceneID="62q-N9-zOg">
             <objects>
                 <viewController id="sMO-9e-Hkd" customClass="ViewController" customModule="Image" sceneMemberID="viewController">
@@ -37,6 +38,14 @@
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zgz-HV-p2E">
                                                     <rect key="frame" x="8" y="43" width="397" height="606"/>
                                                 </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5SH-bE-lxD">
+                                                    <rect key="frame" x="341" y="657" width="64" height="71"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" buttonSize="large">
+                                                        <imageReference key="image" image="bookmark" catalog="system" symbolScale="large"/>
+                                                    </buttonConfiguration>
+                                                </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="bottom" secondItem="zgz-HV-p2E" secondAttribute="bottom" constant="169" id="G4n-1e-pxg"/>
@@ -66,14 +75,14 @@
                             <constraint firstItem="hOQ-tZ-z7u" firstAttribute="bottom" secondItem="3nE-JW-X1k" secondAttribute="bottom" id="fA6-Sx-MJq"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="MAD-Th-7Sv"/>
+                    <navigationItem key="navigationItem" title="Обои" id="MAD-Th-7Sv"/>
                     <connections>
                         <outlet property="collectionView" destination="hOQ-tZ-z7u" id="CUu-cA-J9z"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VaS-mp-Pp7" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-303" y="90"/>
+            <point key="canvasLocation" x="-304.34782608695656" y="89.732142857142847"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6jG-4u-c6j">
@@ -95,6 +104,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bookmark" catalog="system" width="112" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
